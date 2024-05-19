@@ -1,0 +1,60 @@
+/* Define a fonte padrão e remove margens e preenchimentos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o menu de navegação */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza as seções */
+section {
+    padding: 20px;
+}
+
+/* Estiliza os títulos das seções */
+h1, h2 {
+    color: #333;
+}
+
+/* Estiliza os itens de trabalho */
+.job {
+    margin-bottom: 20px;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
